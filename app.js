@@ -42,7 +42,7 @@ app.use(function(err, req, res, next) {
 });
 
 app.listen(4000, () => {
-  console.log(`Server is running`);
+  console.log(`Server is running on port 4000`);
 });
 
 module.exports = app;
